@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="de">
+    {% include "head.html" %}
+  <body>
+	  {{ content }}
+    <footer class="footer mt-auto py-5">
+      <div class="container">
+        <ul class="nav justify-content-center  pb-3 mb-3">
+          <li class="nav-item"><a target="_blank" href="http://www.crowdware.at/impressum_de.html" class="nav-link px-2">Impressum</a></li>
+        </ul>
+      </div>
+      <div class="container" style="align-items: center;">
+        <p class="copyright text-muted text-center fs-6">{{ site.copyright }} - Unterstützt von <a href="https://artanidos.github.io/FlatSiteBuilder/">FlatSiteBuilder</a> des Vereines <a href="https://www.crowdware.at">CrowdWare</a></p>
+    </footer>
+    {% include "scripts.html" %}
+  </body>
+</html>
+
